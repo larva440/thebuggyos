@@ -1,6 +1,6 @@
 # The Buggy OS
 
-![Buggy OS Logo or Banner](link-to-image.png)
+![Buggy OS Logo](boslogo.png)
 
 "The Buggy OS" is a simple and minimalistic operating system created as a learning experiment. It's designed to demonstrate the behavior of a CPU when interrupts are disabled using `cli` and the CPU is halted using `hlt`.
 
@@ -36,7 +36,7 @@ These are minimalistic instructions to get you started with "The Buggy OS."
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/the-buggy-os.git
+   git clone https://github.com/larva440/the-buggy-os.git
    ```
 
 2. Assemble the code using your preferred x86 assembler.
@@ -62,4 +62,3 @@ This project is a minimalistic example and may not require contributions. Howeve
 This project is intentionally minimal and not intended for practical use. It's a learning experiment to understand the behavior of specific CPU instructions. Enjoy exploring "The Buggy OS"!
 ```
 
-Replace the placeholders (`link-to-image.png`, `your-username`, etc.) with actual details relevant to your project. This README provides a simple overview of your minimalistic OS and how to get started with it.
