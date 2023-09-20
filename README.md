@@ -1,6 +1,6 @@
 # The Buggy OS
 
-![Buggy OS Logo](boslogo.png)
+![Buggy OS Logo or Banner](link-to-image.png)
 
 "The Buggy OS" is a simple and minimalistic operating system created as a learning experiment. It's designed to demonstrate the behavior of a CPU when interrupts are disabled using `cli` and the CPU is halted using `hlt`.
 
@@ -11,12 +11,13 @@
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
+- [Bootloader](#bootloader)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-"The Buggy OS" is a tiny operating system that consists of just two assembly instructions: `cli` and `hlt`. It's not a practical operating system but rather a demonstration of how these instructions affect the CPU's behavior.
+"The Buggy OS" is a tiny operating system that consists of just two assembly instructions: `cli` and `hlt`. It's not a practical operating system but rather a demonstration of how these instructions affect the CPU's behavior. It's a nostalgic piece from my early days of coding in the 90s.
 
 ## Features
 
@@ -36,7 +37,7 @@ These are minimalistic instructions to get you started with "The Buggy OS."
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/larva440/the-buggy-os.git
+   git clone https://github.com/your-username/the-buggy-os.git
    ```
 
 2. Assemble the code using your preferred x86 assembler.
@@ -47,7 +48,17 @@ These are minimalistic instructions to get you started with "The Buggy OS."
 
 ## Usage
 
-"The Buggy OS" is meant for educational purposes and serves as a simple example of using `cli` and `hlt` instructions in assembly language.
+"The Buggy OS" is meant for educational purposes and serves as a simple example of using `cli` and `hlt` instructions in assembly language. It's also a nostalgic trip down memory lane for me!
+
+## Bootloader
+
+We've included a simple bootloader (`bootloader.asm`) that loads "The Buggy OS" into memory and then jumps to its entry point. You can use this bootloader to create a bootable image.
+
+### How to Use the Bootloader
+
+1. Assemble the bootloader code (`bootloader.asm`) separately.
+2. Combine the bootloader binary and "The Buggy OS" binary to create a bootable image.
+3. Load and run the bootable image on an x86-based system or emulator.
 
 ## Contributing
 
@@ -60,5 +71,7 @@ This project is a minimalistic example and may not require contributions. Howeve
 ---
 
 This project is intentionally minimal and not intended for practical use. It's a learning experiment to understand the behavior of specific CPU instructions. Enjoy exploring "The Buggy OS"!
-```
 
+---
+
+Feel free to customize this README as needed for your project. It now includes information about the bootloader and how to use it along with "The Buggy OS."
